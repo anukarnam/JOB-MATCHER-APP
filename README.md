@@ -12,7 +12,6 @@ A great tool for job seekers to optimize resumes for each application.
 
 ## 🛠️ Tech Stack
 - **Python**
-- **Streamlit** – for UI
 - **Ollama + LLM** (e.g., `llama3`) – for analysis
 - **PyMuPDF** – for PDF parsing
 
@@ -23,4 +22,5 @@ A great tool for job seekers to optimize resumes for each application.
    ```bash
    pip install -r requirements.txt
 2. Install Ollama and run a model (e.g. llama3): `ollama run llama3`
-3. Start the app: `streamlit run app.py`
+3. Start the app: `run app.py`
+
