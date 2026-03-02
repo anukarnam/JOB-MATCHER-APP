@@ -36,7 +36,7 @@ def get_text_from_file(file_name) -> str:
 resume_file = st.file_uploader("Upload Resume (PDF/TXT)", type=["pdf", "txt"])
 job_file = st.file_uploader("Upload Job Description (PDF/TXT)", type=["pdf", "txt"])
 
-if st.button("🔍 Match Resume with Job Description"):
+if st.button("🔍 Match Resume with Description"):
     if resume_file and job_file:
     # Extract Resume text
         resume_text = get_text_from_file(resume_file)
@@ -81,7 +81,7 @@ if st.button("🔍 Match Resume with Job Description"):
             st.error(f"An error occurred: {str(e)}")
 
     else:
-        st.warning("⚠️ Please upload both Resume and Job Description.")
+        st.warning(" Please upload both Resume and Job Description.")
 
 # Download button
 if "resume_match" in st.session_state:
@@ -91,3 +91,4 @@ if "resume_match" in st.session_state:
         file_name="resume_match_report.md",
         mime="text/markdown"
     )
+
