@@ -8,6 +8,9 @@ This app allows you to upload a **Resume** and a **Job Description**, then uses 
 
 A great tool for job seekers to optimize resumes for each application.
 
+##Clone the GitHub repository
+git clone https://github.com/anukarnam/JOB-MATCHER-APP.git
+
 ---
 
 ## 🛠️ Tech Stack
@@ -23,4 +26,5 @@ A great tool for job seekers to optimize resumes for each application.
    pip install -r requirements.txt
 2. Install Ollama and run a model (e.g. llama3): `ollama run llama3`
 3. Start the app: `run app.py`
+
 
